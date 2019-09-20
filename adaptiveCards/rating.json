@@ -1,0 +1,119 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "separator": true,
+            "text": "Zou je dit gesprek willen beoordelen? Met jouw feedback kan ik jou en anderen in de toekomst beter van dienst zijn.",
+            "wrap": true
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "Medium",
+            "columns": [
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "bedroevend"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://www.sccpre.cat/mypng/full/125-1252115_sss-rating-star-single-png.png"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Bedroevend"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "Slecht"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://www.sccpre.cat/mypng/full/125-1252115_sss-rating-star-single-png.png"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Slecht"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "prima"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://www.sccpre.cat/mypng/full/125-1252115_sss-rating-star-single-png.png"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Prima"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "goed"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://www.sccpre.cat/mypng/full/125-1252115_sss-rating-star-single-png.png"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Goed"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "geweldig"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://www.sccpre.cat/mypng/full/125-1252115_sss-rating-star-single-png.png"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Geweldig"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
